@@ -11,7 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "symfony/dependency-injection": "~2.7|~3.3|~4.0",
+        "symfony/http-kernel": "~2.7|~3.3|~4.0",
+        "yandex-money/yandex-money-sdk-php": "^3.0",
+        "doctrine/common": "^2.8"
     },
     "require-dev": {
     },

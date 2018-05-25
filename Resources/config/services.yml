@@ -1,0 +1,11 @@
+parameters:
+#    parameter_name: value
+
+services:
+    ym_api.manager:
+        class: Ryzhov\Bundle\YmApiBundle\Service\Manager
+        arguments: ["@ym_api.token_storage"]
+
+    ym_api.token_storage:
+        class: Ryzhov\Bundle\YmApiBundle\Service\TokenStorage
+        arguments: ["@doctrine.orm.entity_manager"]
