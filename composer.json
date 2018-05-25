@@ -1,0 +1,26 @@
+{
+    "name": "ryzhov/ymapi-bundle",
+    "type": "symfony-bundle",
+    "description": "Yandex money API bundle",
+    "keywords": ["yandex", "money"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr N. Ryzhov",
+            "email": "ryzhov@uiptel.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Ryzhov\\Bundle\\YmApiBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
