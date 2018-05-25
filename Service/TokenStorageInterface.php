@@ -6,7 +6,7 @@
 
 namespace Ryzhov\Bundle\YmApiBundle\Service;
 
-use AppBundle\Model\TokenInterface;
+use Ryzhov\Bundle\YmApiBundle\Model\TokenInterface;
 
 /**
  * @author Aleksandr N. Ryzhov <a.n.ryzhov@gmail.com>

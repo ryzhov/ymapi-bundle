@@ -27,6 +27,6 @@ class YmApiExtension extends Extension
         $loader->load( 'services.yml' );
 
         $defintion = $container->getDefinition('ym_api.manager');
-        $defintion->addMethodCall('setConfig', [$config['ym_api']]);
+        $defintion->addMethodCall('setConfig', [$config]);
     }
 }
