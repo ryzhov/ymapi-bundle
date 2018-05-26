@@ -15,9 +15,9 @@ interface TokenInterface
     /**
      * Get token value
      *
-     * @return string
+     * @return string|null
      */
-    public function getValue() : string;
+    public function getValue() : ?string;
 
     /**
      * Get scope of token

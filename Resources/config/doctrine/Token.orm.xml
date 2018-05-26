@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                  http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <mapped-superclass name="Ryzhov\Bundle\YmApiBundle\Entity\Token">
+
+        <field name="value" column="value" type="string" length="300" />
+
+        <field name="scope" column="scope" type="array" />
+        
+        <field name="createdAt" column="created_at" type="datetime" />
+        
+        <field name="revokedAt" column="revoked_at" type="datetime" nullable="true" />
+        
+    </mapped-superclass>
+
+</doctrine-mapping>
